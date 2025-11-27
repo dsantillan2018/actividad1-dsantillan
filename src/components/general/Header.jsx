@@ -18,14 +18,14 @@ function Header() {
         </div>
         <ul className="navbar-nav flex-row gap-4 mx-auto">
           <li className="nav-item">
-            <Link to="#" className="nav-link text-white fw-bold">
+            <Link to="/specialties" className="nav-link text-white fw-bold">
               Especialidades
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="#" className="nav-link text-white fw-bold">
-              Doctores
-            </Link>
+              <Link to="/doctors" className="nav-link text-white fw-bold">
+                Doctores
+              </Link>
           </li>
           <li className="nav-item">
             <Link to="/appointments" className="nav-link text-white fw-bold">
