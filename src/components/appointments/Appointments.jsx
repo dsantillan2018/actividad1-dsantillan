@@ -85,14 +85,14 @@ function Appointments() {
                   required
                 />
               </div>
-              <button type="submit" className="btn btn-primary">Agendar</button>
+              <button type="submit" className="btn btn-primary" id="btn_schedule">Agendar</button>
             </form>
           </div>
         </div>
         {/* Toast de éxito y advertencia */}
         <div style={{ position: 'fixed', top: 20, right: 20, zIndex: 1055 }}>
           {showToast && (
-            <div className="toast show align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+            <div className="toast show align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true" id="success_toast">
               <div className="d-flex">
                 <div className="toast-body">
                   ¡Cita agendada exitosamente!
@@ -102,7 +102,7 @@ function Appointments() {
             </div>
           )}
           {showWarning && (
-            <div className="toast show align-items-center text-bg-danger border-0 mt-2" role="alert" aria-live="assertive" aria-atomic="true">
+            <div className="toast show align-items-center text-bg-danger border-0 mt-2" role="alert" aria-live="assertive" aria-atomic="true" id="warning_toast">
               <div className="d-flex">
                 <div className="toast-body">
                   Por favor, completa todos los campos obligatorios.

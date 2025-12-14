@@ -8,7 +8,7 @@ function Home() {
     <div className="home-container container d-flex flex-column align-items-center justify-content-center">
       <h1 className="chiquiteethos-header">Chiquiteethos</h1>
       <i className="bi bi-emoji-smile mb-4 fs-1 bienvenidos-text" title="Diente"></i>
-      <button className="btn btn-primary btn-lg" onClick={() => navigate('/menu')}>
+      <button id="btn_enter" className="btn btn-primary btn-lg" onClick={() => navigate('/menu')}>
         Ingresar
       </button>
     </div>
