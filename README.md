@@ -21,5 +21,5 @@
 ---
 
 **Notas:**
-- Asegúrate de tener Node.js y npm instalados.
+- Asegúrate de tener Node.js y npm instalados. (Recomendado v22.14.0 para Node.js y v10.9.2 para npm).
 - Si tienes problemas, elimina la carpeta `node_modules` y ejecuta nuevamente `npm install`.
